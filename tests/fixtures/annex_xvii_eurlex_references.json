@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "entry_number": "71",
+      "document_title": "Commission Regulation (EU) 2018/588 concerning 1-methyl-2-pyrrolidone",
+      "celex_number": "32018R0588",
+      "eur_lex_reference": "https://eur-lex.europa.eu/eli/reg/2018/588/oj",
+      "authority_level": "LEGALLY BINDING",
+      "publication_date": "2018-04-19",
+      "effective_date": "2018-05-09",
+      "applicability_date": "2020-05-09",
+      "amending_act": "Commission Regulation (EU) 2018/588",
+      "legal_text_locator": "Annex adding REACH Annex XVII entry 71"
+    },
+    {
+      "entry_number": "63",
+      "document_title": "Commission Regulation (EU) 2015/628 concerning lead and its compounds",
+      "celex_number": "32015R0628",
+      "eur_lex_reference": "https://eur-lex.europa.eu/eli/reg/2015/628/oj",
+      "authority_level": "LEGALLY BINDING",
+      "publication_date": "2015-04-23",
+      "effective_date": "2015-05-13",
+      "applicability_date": "2016-06-01",
+      "amending_act": "Commission Regulation (EU) 2015/628",
+      "legal_text_locator": "Annex amending REACH Annex XVII entry 63"
+    },
+    {
+      "entry_number": "5",
+      "document_title": "Regulation (EC) No 1907/2006 (REACH)",
+      "celex_number": "32006R1907",
+      "eur_lex_reference": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj",
+      "authority_level": "LEGALLY BINDING",
+      "publication_date": "2006-12-30",
+      "effective_date": "2007-06-01",
+      "applicability_date": "2009-06-01",
+      "amending_act": "Base REACH Regulation",
+      "legal_text_locator": "Annex XVII entry 5; verify current consolidated wording and amendments"
+    }
+  ]
+}
+

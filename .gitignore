@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Restricted, proprietary, client, and local regulatory data
+data/
+private_data/
+restricted_data/
+client_data/
+uploads/
+snapshots/
+**/private_snapshots/
+**/official_snapshots/
+*.i5z
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+ChemReg_Intel.txt
+
+# Spreadsheet outputs are private by default. Only this synthetic public case is tracked.
+*.xlsx
+!case_studies/regulatory-validation-01/*.xlsx
+
+# Generated artifacts
+node_modules/
+*.inspect.ndjson
+case_studies/*/renders/

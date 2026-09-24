@@ -1,0 +1,1770 @@
+{
+  "case_id": "regulatory-validation-01",
+  "as_of_date": "2026-09-24",
+  "synthetic_formulation": true,
+  "formulation": [
+    {
+      "name": "N-methyl-2-pyrrolidone (NMP)",
+      "cas": "872-50-4",
+      "ec": "212-828-1",
+      "concentration_percent": 10.0,
+      "role": "solvent"
+    },
+    {
+      "name": "Toluene",
+      "cas": "",
+      "ec": "203-625-9",
+      "concentration_percent": 20.0,
+      "role": "solvent"
+    },
+    {
+      "name": "2-propanone",
+      "cas": "",
+      "ec": "",
+      "concentration_percent": 30.0,
+      "role": "solvent"
+    },
+    {
+      "name": "Ethanol",
+      "cas": "64-17-5",
+      "ec": "",
+      "concentration_percent": 20.0,
+      "role": "solvent"
+    },
+    {
+      "name": "Formaldehyde",
+      "cas": "50-00-0",
+      "ec": "",
+      "concentration_percent": 2.0,
+      "role": "crosslinker component"
+    },
+    {
+      "name": "Benzol",
+      "cas": "",
+      "ec": "",
+      "concentration_percent": 0.05,
+      "role": "trace impurity"
+    },
+    {
+      "name": "Water",
+      "cas": "7732-18-5",
+      "ec": "",
+      "concentration_percent": 17.95,
+      "role": "carrier"
+    }
+  ],
+  "source_register": [
+    {
+      "dataset_id": "case:identity-registry:2026-09-24",
+      "source_name": "Curated identity registry",
+      "authority_level": "OFFICIAL INFORMATIONAL DATASET",
+      "version": "case-identity-v1",
+      "effective_date": "2026-09-24",
+      "record_count": 7,
+      "url": "https://echa.europa.eu/information-on-chemicals",
+      "reuse": "Curated identifiers only; not a bulk ECHA export.",
+      "checksum": "1624bb20c5933042c02fdf9c0b78cd2f2450df32ee79b605424b5fff15c48c49"
+    },
+    {
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_name": "ECHA Candidate List curated NMP record",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "version": "candidate-list-2026-02-04-curated-excerpt",
+      "effective_date": "2026-02-04",
+      "record_count": 1,
+      "url": "https://echa.europa.eu/candidate-list-table",
+      "reuse": "One manually curated record; no automated retrieval or bulk redistribution.",
+      "checksum": "552651ee5c09035719231045c3b382e465b68c47b32e1e6c3a6749b004dc7623"
+    },
+    {
+      "dataset_id": "case:echa-annex-xvii:2026-09-24",
+      "source_name": "ECHA Annex XVII structured curated records",
+      "authority_level": "OFFICIAL INFORMATIONAL DATASET",
+      "version": "annex-xvii-case-v1",
+      "effective_date": "2026-09-24",
+      "record_count": 3,
+      "url": "https://echa.europa.eu/substances-restricted-under-reach",
+      "reuse": "Structured screening aid only; legal wording remains separate.",
+      "checksum": "1df50703cd11cdb5a11ef029eddb9c6e96e607b826b9f425220f0c2a33199db2"
+    },
+    {
+      "dataset_id": "case:eurlex-annex-xvii:2026-09-24",
+      "source_name": "EUR-Lex/Official Journal Annex XVII references",
+      "authority_level": "LEGALLY BINDING",
+      "version": "annex-xvii-legal-case-v1",
+      "effective_date": "2026-09-24",
+      "record_count": 3,
+      "url": "https://eur-lex.europa.eu/eli/reg/2006/1907",
+      "reuse": "Curated legal references with attribution.",
+      "checksum": "0816db5f157771e8b8e7babe40277045093cfa18d9177a1f259bac287a00af18"
+    },
+    {
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+      "source_name": "EUR-Lex/Official Journal CLP Annex VI curated entries",
+      "authority_level": "LEGALLY BINDING",
+      "version": "clp-annex-vi-case-v2-atp22",
+      "effective_date": "2026-05-01",
+      "record_count": 6,
+      "url": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+      "reuse": "Curated legal-entry manifest; no ECHA convenience bulk dataset.",
+      "checksum": "76ccc71331dbd06489fd97dd3cabe92d696f8293eaba1aafdfbf2a4b6732dbfe"
+    },
+    {
+      "dataset_id": "case:eurlex-clp-annex-vi:2015-03-25",
+      "source_name": "Historical EUR-Lex formaldehyde Annex VI entry",
+      "authority_level": "LEGALLY BINDING",
+      "version": "clp-annex-vi-historical-v1",
+      "effective_date": "2015-03-25",
+      "record_count": 1,
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/605/oj",
+      "reuse": "Historical curated reference retained for reproducibility.",
+      "checksum": "8c332539013928cece425888abe84d3114e03f43099fe23ef2bad27af22739e0"
+    },
+    {
+      "dataset_id": "case:clp-oral-rule:2026-07-01",
+      "source_name": "CLP Annex I oral acute-toxicity rule",
+      "authority_level": "LEGALLY BINDING",
+      "version": "clp-annex-i-2026-07-01-oral-pilot-v1",
+      "effective_date": "2026-07-01",
+      "record_count": 1,
+      "url": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+      "reuse": "Rule metadata; formula is not a bulk source dataset.",
+      "checksum": "cb2a93d19c267231b7ec3abd3502fcce161fc6cd45b257287bd29d04ec3870f5"
+    }
+  ],
+  "identities": [
+    {
+      "input_name": "N-methyl-2-pyrrolidone (NMP)",
+      "input_cas": "872-50-4",
+      "input_ec": "212-828-1",
+      "matched_name": "N-methyl-2-pyrrolidone",
+      "matched_cas": "872-50-4",
+      "matched_ec": "212-828-1",
+      "match_method": "CAS exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 2
+    },
+    {
+      "input_name": "Toluene",
+      "input_cas": "",
+      "input_ec": "203-625-9",
+      "matched_name": "toluene",
+      "matched_cas": "108-88-3",
+      "matched_ec": "203-625-9",
+      "match_method": "EC exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 3
+    },
+    {
+      "input_name": "2-propanone",
+      "input_cas": "",
+      "input_ec": "",
+      "matched_name": "acetone",
+      "matched_cas": "67-64-1",
+      "matched_ec": "200-662-2",
+      "match_method": "synonym exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 4
+    },
+    {
+      "input_name": "Ethanol",
+      "input_cas": "64-17-5",
+      "input_ec": "",
+      "matched_name": "ethanol",
+      "matched_cas": "64-17-5",
+      "matched_ec": "200-578-6",
+      "match_method": "CAS exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 5
+    },
+    {
+      "input_name": "Formaldehyde",
+      "input_cas": "50-00-0",
+      "input_ec": "",
+      "matched_name": "formaldehyde \u2026%",
+      "matched_cas": "50-00-0",
+      "matched_ec": "200-001-8",
+      "match_method": "CAS exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 6
+    },
+    {
+      "input_name": "Benzol",
+      "input_cas": "",
+      "input_ec": "",
+      "matched_name": "benzene",
+      "matched_cas": "71-43-2",
+      "matched_ec": "200-753-7",
+      "match_method": "synonym exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 7
+    },
+    {
+      "input_name": "Water",
+      "input_cas": "7732-18-5",
+      "input_ec": "",
+      "matched_name": "water",
+      "matched_cas": "7732-18-5",
+      "matched_ec": "231-791-2",
+      "match_method": "CAS exact",
+      "match_confidence": 1.0,
+      "ambiguity_flag": false,
+      "manual_review_required": false,
+      "suggestions": [],
+      "input_row": 8
+    }
+  ],
+  "candidate_list_results": [
+    {
+      "status": "CONFIRMED MATCH",
+      "module": "SVHC Screening",
+      "matched_identifier": "872-50-4",
+      "entry_number": "ED/31/2011",
+      "summary": "Toxic for reproduction (Article 57c)",
+      "conditions_or_thresholds": "Inclusion date: 2011-06-20",
+      "exemptions_or_notes": "Candidate List membership alone does not determine obligations.",
+      "classification_fields": {},
+      "manual_review_required": true,
+      "review_notes": "Confirm role, use, concentration and any applicable obligations.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "108-88-3",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "67-64-1",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "64-17-5",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "50-00-0",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "71-43-2",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    },
+    {
+      "status": "NO MATCH IN CHECKED SOURCE",
+      "module": "SVHC Screening",
+      "matched_identifier": "7732-18-5",
+      "entry_number": "",
+      "summary": "",
+      "conditions_or_thresholds": "",
+      "exemptions_or_notes": "",
+      "classification_fields": {},
+      "manual_review_required": false,
+      "review_notes": "No matching identifier was found in this specific checked dataset; this is not a compliance determination.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04",
+      "authority_level": "OFFICIAL REGULATORY DATABASE",
+      "effective_date": "2026-02-04",
+      "source_source_name": "ECHA Candidate List curated NMP record",
+      "source_source_reference": "https://echa.europa.eu/candidate-list-table",
+      "source_source_version": "candidate-list-2026-02-04-curated-excerpt",
+      "source_retrieval_date": "2026-09-24",
+      "source_regulatory_list": "Candidate List / SVHC",
+      "source_synthetic": false,
+      "source_source_authority": "ECHA",
+      "source_source_type": "CURATED OFFICIAL RECORD",
+      "source_effective_date": "2026-02-04",
+      "source_dataset_id": "case:echa-candidate-list:2026-02-04",
+      "source_authority_level": "OFFICIAL REGULATORY DATABASE",
+      "source_legal_notice_url": "https://echa.europa.eu/legal-notice",
+      "source_redistribution_allowed": false,
+      "source_commercial_use_allowed": null,
+      "source_checksum": "3a44a69ba85c6a5f7130c70780208b335e3a6ab155278b6eeba36e39a8f01c4e",
+      "source_record_count": 1
+    }
+  ],
+  "annex_xvii_results": [
+    {
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "input_identity": "N-methyl-2-pyrrolidone",
+      "matched_entry": "1-methyl-2-pyrrolidone (NMP)",
+      "entry_number": "71",
+      "match_type": "EXACT_IDENTIFIER_MATCH",
+      "restriction_scope": "NMP as a substance or in mixtures",
+      "condition_text": "At >=0.3% w/w, worker DNEL and risk-management conditions apply; wire-coating solvent/reactant use applies from 2024-05-09.",
+      "threshold": "0.3 % w/w",
+      "exemptions": "Wire-coating later applicability.",
+      "effective_date": "2020-05-09",
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2018/588/oj",
+      "authority_level": "OFFICIAL INFORMATIONAL DATASET",
+      "interpretation_note": "Exact normalized CAS or EC identifier match. Supplied concentration is at or above the recorded threshold; this is screening context, not a compliance conclusion.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "case:echa-annex-xvii:2026-09-24",
+      "legal_source_dataset_id": "case:eurlex-annex-xvii:2026-09-24",
+      "legal_authority_level": "LEGALLY BINDING",
+      "legal_sources": [
+        {
+          "document_title": "REACH Annex XVII entry 71",
+          "celex_number": "32018R0588",
+          "reference": "https://eur-lex.europa.eu/eli/reg/2018/588/oj",
+          "authority_level": "LEGALLY BINDING",
+          "effective_date": "2020-05-09",
+          "applicability_date": "2020-05-09",
+          "dataset_id": "case:eurlex-annex-xvii:2026-09-24"
+        }
+      ],
+      "mixture_or_article_scope": "substance|mixture",
+      "specific_use_conditions": "Worker DNELs: inhalation 14.4 mg/m3; dermal 4.8 mg/kg/day.",
+      "derogations": "Wire-coating later applicability.",
+      "transition_dates": "2020-05-09; wire coating 2024-05-09",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "input_identity": "toluene",
+      "matched_entry": "Toluene",
+      "entry_number": "48",
+      "match_type": "EXACT_IDENTIFIER_MATCH",
+      "restriction_scope": "Toluene",
+      "condition_text": "May not be placed on the market or used at >=0.1% by mass in adhesives and spray paints intended for sale to the general public.",
+      "threshold": "0.1 % w/w",
+      "exemptions": "",
+      "effective_date": "2007-06-15",
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj",
+      "authority_level": "OFFICIAL INFORMATIONAL DATASET",
+      "interpretation_note": "Exact normalized CAS or EC identifier match. Supplied concentration is at or above the recorded threshold; this is screening context, not a compliance conclusion.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "case:echa-annex-xvii:2026-09-24",
+      "legal_source_dataset_id": "case:eurlex-annex-xvii:2026-09-24",
+      "legal_authority_level": "LEGALLY BINDING",
+      "legal_sources": [
+        {
+          "document_title": "REACH Annex XVII entry 48",
+          "celex_number": "32006R1907",
+          "reference": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj",
+          "authority_level": "LEGALLY BINDING",
+          "effective_date": "2007-06-15",
+          "applicability_date": "2007-06-15",
+          "dataset_id": "case:eurlex-annex-xvii:2026-09-24"
+        }
+      ],
+      "mixture_or_article_scope": "mixture",
+      "specific_use_conditions": "Adhesives and spray paints intended for sale to the general public.",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "NO MATCH IN CHECKED DATASET",
+      "input_identity": "acetone",
+      "matched_entry": "",
+      "entry_number": "",
+      "match_type": "NO_MATCH_IN_CHECKED_DATASET",
+      "restriction_scope": "",
+      "condition_text": "",
+      "threshold": "",
+      "exemptions": "",
+      "effective_date": null,
+      "legal_reference": "",
+      "authority_level": null,
+      "interpretation_note": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "",
+      "legal_source_dataset_id": "",
+      "legal_authority_level": null,
+      "legal_sources": [],
+      "mixture_or_article_scope": "",
+      "specific_use_conditions": "",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "NO MATCH IN CHECKED DATASET",
+      "input_identity": "ethanol",
+      "matched_entry": "",
+      "entry_number": "",
+      "match_type": "NO_MATCH_IN_CHECKED_DATASET",
+      "restriction_scope": "",
+      "condition_text": "",
+      "threshold": "",
+      "exemptions": "",
+      "effective_date": null,
+      "legal_reference": "",
+      "authority_level": null,
+      "interpretation_note": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "",
+      "legal_source_dataset_id": "",
+      "legal_authority_level": null,
+      "legal_sources": [],
+      "mixture_or_article_scope": "",
+      "specific_use_conditions": "",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "NO MATCH IN CHECKED DATASET",
+      "input_identity": "formaldehyde \u2026%",
+      "matched_entry": "",
+      "entry_number": "",
+      "match_type": "NO_MATCH_IN_CHECKED_DATASET",
+      "restriction_scope": "",
+      "condition_text": "",
+      "threshold": "",
+      "exemptions": "",
+      "effective_date": null,
+      "legal_reference": "",
+      "authority_level": null,
+      "interpretation_note": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "",
+      "legal_source_dataset_id": "",
+      "legal_authority_level": null,
+      "legal_sources": [],
+      "mixture_or_article_scope": "",
+      "specific_use_conditions": "",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "input_identity": "benzene",
+      "matched_entry": "Benzene",
+      "entry_number": "5",
+      "match_type": "EXACT_IDENTIFIER_MATCH",
+      "restriction_scope": "Benzene as substance, constituent, or mixture",
+      "condition_text": "Shall not be placed on the market or used at >=0.1% by weight, subject to the entry's specified exemptions and derogations.",
+      "threshold": "0.1 % w/w",
+      "exemptions": "Specified fuels, industrial processes and natural-gas provisions require legal-text review.",
+      "effective_date": "2009-06-01",
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj",
+      "authority_level": "OFFICIAL INFORMATIONAL DATASET",
+      "interpretation_note": "Exact normalized CAS or EC identifier match. Supplied concentration is below the recorded threshold; this is screening context, not a compliance conclusion.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "case:echa-annex-xvii:2026-09-24",
+      "legal_source_dataset_id": "case:eurlex-annex-xvii:2026-09-24",
+      "legal_authority_level": "LEGALLY BINDING",
+      "legal_sources": [
+        {
+          "document_title": "REACH Annex XVII entry 5",
+          "celex_number": "32006R1907",
+          "reference": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj",
+          "authority_level": "LEGALLY BINDING",
+          "effective_date": "2009-06-01",
+          "applicability_date": "2009-06-01",
+          "dataset_id": "case:eurlex-annex-xvii:2026-09-24"
+        }
+      ],
+      "mixture_or_article_scope": "substance|mixture",
+      "specific_use_conditions": "",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    },
+    {
+      "status": "NO MATCH IN CHECKED DATASET",
+      "input_identity": "water",
+      "matched_entry": "",
+      "entry_number": "",
+      "match_type": "NO_MATCH_IN_CHECKED_DATASET",
+      "restriction_scope": "",
+      "condition_text": "",
+      "threshold": "",
+      "exemptions": "",
+      "effective_date": null,
+      "legal_reference": "",
+      "authority_level": null,
+      "interpretation_note": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "manual_review_required": true,
+      "structured_source_dataset_id": "",
+      "legal_source_dataset_id": "",
+      "legal_authority_level": null,
+      "legal_sources": [],
+      "mixture_or_article_scope": "",
+      "specific_use_conditions": "",
+      "derogations": "",
+      "transition_dates": "",
+      "amending_acts": [],
+      "screening_summary_label": "SCREENING SUMMARY",
+      "legal_text_label": "LEGAL SOURCE TEXT"
+    }
+  ],
+  "annex_vi_results": [
+    {
+      "status": "PARTIAL HARMONISED CLASSIFICATION",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "N-methyl-2-pyrrolidone",
+      "entry": {
+        "index_number": "606-021-00-7",
+        "chemical_name": "N-methyl-2-pyrrolidone; 1-methyl-2-pyrrolidone",
+        "ec_number": "212-828-1",
+        "cas_number": "872-50-4",
+        "hazards": [
+          {
+            "hazard_class_code": "Repr.",
+            "hazard_category_code": "1B",
+            "hazard_statement_code": "H360D"
+          },
+          {
+            "hazard_class_code": "STOT SE",
+            "hazard_category_code": "3",
+            "hazard_statement_code": "H335"
+          },
+          {
+            "hazard_class_code": "Skin Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H315"
+          },
+          {
+            "hazard_class_code": "Eye Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H319"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [],
+        "specific_concentration_limits": [
+          {
+            "hazard_class": "STOT SE",
+            "category": "3",
+            "operator": ">=",
+            "threshold": 10.0,
+            "unit": "%",
+            "classification_trigger": "H335",
+            "upper_operator": "",
+            "upper_threshold": null,
+            "raw_text": ""
+          }
+        ],
+        "m_factors": [],
+        "acute_toxicity_estimates": [],
+        "notes": [
+          "***"
+        ],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": true,
+        "atp_or_amending_act": "Commission Regulation (EU) 2016/1179",
+        "publication_date": "2018-04-16",
+        "application_date": null,
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Repr.",
+          "hazard_category_code": "1B",
+          "hazard_statement_code": "H360D"
+        },
+        {
+          "hazard_class_code": "STOT SE",
+          "hazard_category_code": "3",
+          "hazard_statement_code": "H335"
+        },
+        {
+          "hazard_class_code": "Skin Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H315"
+        },
+        {
+          "hazard_class_code": "Eye Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H319"
+        }
+      ],
+      "specific_concentration_limits": [
+        {
+          "hazard_class": "STOT SE",
+          "category": "3",
+          "operator": ">=",
+          "threshold": 10.0,
+          "unit": "%",
+          "classification_trigger": "H335",
+          "upper_operator": "",
+          "upper_threshold": null,
+          "raw_text": ""
+        }
+      ],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [
+        "***"
+      ],
+      "note_present": true,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately. A minimum-classification marker is present; consult CLP Annex VI notes and the applicable legal text. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review."
+    },
+    {
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "toluene",
+      "entry": {
+        "index_number": "601-021-00-3",
+        "chemical_name": "toluene",
+        "ec_number": "203-625-9",
+        "cas_number": "108-88-3",
+        "hazards": [
+          {
+            "hazard_class_code": "Flam. Liq.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H225"
+          },
+          {
+            "hazard_class_code": "Repr.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H361d"
+          },
+          {
+            "hazard_class_code": "Asp. Tox.",
+            "hazard_category_code": "1",
+            "hazard_statement_code": "H304"
+          },
+          {
+            "hazard_class_code": "STOT RE",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H373"
+          },
+          {
+            "hazard_class_code": "Skin Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H315"
+          },
+          {
+            "hazard_class_code": "STOT SE",
+            "hazard_category_code": "3",
+            "hazard_statement_code": "H336"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [],
+        "specific_concentration_limits": [],
+        "m_factors": [],
+        "acute_toxicity_estimates": [],
+        "notes": [
+          "**",
+          "***"
+        ],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": false,
+        "atp_or_amending_act": "Commission Regulation (EU) 2018/669",
+        "publication_date": "2018-04-16",
+        "application_date": null,
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Flam. Liq.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H225"
+        },
+        {
+          "hazard_class_code": "Repr.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H361d"
+        },
+        {
+          "hazard_class_code": "Asp. Tox.",
+          "hazard_category_code": "1",
+          "hazard_statement_code": "H304"
+        },
+        {
+          "hazard_class_code": "STOT RE",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H373"
+        },
+        {
+          "hazard_class_code": "Skin Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H315"
+        },
+        {
+          "hazard_class_code": "STOT SE",
+          "hazard_category_code": "3",
+          "hazard_statement_code": "H336"
+        }
+      ],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [
+        "**",
+        "***"
+      ],
+      "note_present": true,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review."
+    },
+    {
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "acetone",
+      "entry": {
+        "index_number": "606-001-00-8",
+        "chemical_name": "acetone; propan-2-one; propanone",
+        "ec_number": "200-662-2",
+        "cas_number": "67-64-1",
+        "hazards": [
+          {
+            "hazard_class_code": "Flam. Liq.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H225"
+          },
+          {
+            "hazard_class_code": "Eye Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H319"
+          },
+          {
+            "hazard_class_code": "STOT SE",
+            "hazard_category_code": "3",
+            "hazard_statement_code": "H336"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [
+          "EUH066"
+        ],
+        "specific_concentration_limits": [],
+        "m_factors": [],
+        "acute_toxicity_estimates": [],
+        "notes": [],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": false,
+        "atp_or_amending_act": "Commission Regulation (EU) 2018/669",
+        "publication_date": "2018-04-16",
+        "application_date": null,
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Flam. Liq.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H225"
+        },
+        {
+          "hazard_class_code": "Eye Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H319"
+        },
+        {
+          "hazard_class_code": "STOT SE",
+          "hazard_category_code": "3",
+          "hazard_statement_code": "H336"
+        }
+      ],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [],
+      "note_present": false,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately."
+    },
+    {
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "ethanol",
+      "entry": {
+        "index_number": "603-002-00-5",
+        "chemical_name": "ethanol; ethyl alcohol",
+        "ec_number": "200-578-6",
+        "cas_number": "64-17-5",
+        "hazards": [
+          {
+            "hazard_class_code": "Flam. Liq.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H225"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [],
+        "specific_concentration_limits": [],
+        "m_factors": [],
+        "acute_toxicity_estimates": [],
+        "notes": [],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": false,
+        "atp_or_amending_act": "Commission Regulation (EU) 2018/669",
+        "publication_date": "2018-04-16",
+        "application_date": null,
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Flam. Liq.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H225"
+        }
+      ],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [],
+      "note_present": false,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately."
+    },
+    {
+      "status": "PARTIAL HARMONISED CLASSIFICATION",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "formaldehyde \u2026%",
+      "entry": {
+        "index_number": "605-001-00-5",
+        "chemical_name": "formaldehyde \u2026%",
+        "ec_number": "200-001-8",
+        "cas_number": "50-00-0",
+        "hazards": [
+          {
+            "hazard_class_code": "Carc.",
+            "hazard_category_code": "1B",
+            "hazard_statement_code": "H350"
+          },
+          {
+            "hazard_class_code": "Muta.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H341"
+          },
+          {
+            "hazard_class_code": "Acute Tox.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H330"
+          },
+          {
+            "hazard_class_code": "Acute Tox.",
+            "hazard_category_code": "4",
+            "hazard_statement_code": "H302"
+          },
+          {
+            "hazard_class_code": "Skin Corr.",
+            "hazard_category_code": "1B",
+            "hazard_statement_code": "H314"
+          },
+          {
+            "hazard_class_code": "Skin Sens.",
+            "hazard_category_code": "1",
+            "hazard_statement_code": "H317"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [
+          "EUH071"
+        ],
+        "specific_concentration_limits": [
+          {
+            "hazard_class": "STOT SE",
+            "category": "3",
+            "operator": ">=",
+            "threshold": 5.0,
+            "unit": "%",
+            "classification_trigger": "H335",
+            "upper_operator": "",
+            "upper_threshold": null,
+            "raw_text": ""
+          },
+          {
+            "hazard_class": "Skin Corr.",
+            "category": "1B",
+            "operator": ">=",
+            "threshold": 25.0,
+            "unit": "%",
+            "classification_trigger": "H314",
+            "upper_operator": "",
+            "upper_threshold": null,
+            "raw_text": ""
+          },
+          {
+            "hazard_class": "Skin Sens.",
+            "category": "1",
+            "operator": ">=",
+            "threshold": 0.2,
+            "unit": "%",
+            "classification_trigger": "H317",
+            "upper_operator": "",
+            "upper_threshold": null,
+            "raw_text": ""
+          }
+        ],
+        "m_factors": [],
+        "acute_toxicity_estimates": [
+          {
+            "route": "inhalation",
+            "value": 100.0,
+            "unit": "ppmV",
+            "physical_form": "gases",
+            "raw_text": ""
+          },
+          {
+            "route": "oral",
+            "value": 500.0,
+            "unit": "mg/kg bw",
+            "physical_form": "",
+            "raw_text": ""
+          }
+        ],
+        "notes": [
+          "B",
+          "D",
+          "F"
+        ],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": true,
+        "atp_or_amending_act": "Commission Delegated Regulation (EU) 2024/2564",
+        "publication_date": "2024-09-30",
+        "application_date": "2026-05-01",
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg_del/2024/2564/oj",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Carc.",
+          "hazard_category_code": "1B",
+          "hazard_statement_code": "H350"
+        },
+        {
+          "hazard_class_code": "Muta.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H341"
+        },
+        {
+          "hazard_class_code": "Acute Tox.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H330"
+        },
+        {
+          "hazard_class_code": "Acute Tox.",
+          "hazard_category_code": "4",
+          "hazard_statement_code": "H302"
+        },
+        {
+          "hazard_class_code": "Skin Corr.",
+          "hazard_category_code": "1B",
+          "hazard_statement_code": "H314"
+        },
+        {
+          "hazard_class_code": "Skin Sens.",
+          "hazard_category_code": "1",
+          "hazard_statement_code": "H317"
+        }
+      ],
+      "specific_concentration_limits": [
+        {
+          "hazard_class": "STOT SE",
+          "category": "3",
+          "operator": ">=",
+          "threshold": 5.0,
+          "unit": "%",
+          "classification_trigger": "H335",
+          "upper_operator": "",
+          "upper_threshold": null,
+          "raw_text": ""
+        },
+        {
+          "hazard_class": "Skin Corr.",
+          "category": "1B",
+          "operator": ">=",
+          "threshold": 25.0,
+          "unit": "%",
+          "classification_trigger": "H314",
+          "upper_operator": "",
+          "upper_threshold": null,
+          "raw_text": ""
+        },
+        {
+          "hazard_class": "Skin Sens.",
+          "category": "1",
+          "operator": ">=",
+          "threshold": 0.2,
+          "unit": "%",
+          "classification_trigger": "H317",
+          "upper_operator": "",
+          "upper_threshold": null,
+          "raw_text": ""
+        }
+      ],
+      "m_factors": [],
+      "acute_toxicity_estimates": [
+        {
+          "route": "inhalation",
+          "value": 100.0,
+          "unit": "ppmV",
+          "physical_form": "gases",
+          "raw_text": ""
+        },
+        {
+          "route": "oral",
+          "value": 500.0,
+          "unit": "mg/kg bw",
+          "physical_form": "",
+          "raw_text": ""
+        }
+      ],
+      "notes": [
+        "B",
+        "D",
+        "F"
+      ],
+      "note_present": true,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately. A minimum-classification marker is present; consult CLP Annex VI notes and the applicable legal text. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review."
+    },
+    {
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "match_type": "EXACT_EC_MATCH",
+      "input_identity": "benzene",
+      "entry": {
+        "index_number": "601-020-00-8",
+        "chemical_name": "benzene",
+        "ec_number": "200-753-7",
+        "cas_number": "71-43-2",
+        "hazards": [
+          {
+            "hazard_class_code": "Flam. Liq.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H225"
+          },
+          {
+            "hazard_class_code": "Carc.",
+            "hazard_category_code": "1A",
+            "hazard_statement_code": "H350"
+          },
+          {
+            "hazard_class_code": "Muta.",
+            "hazard_category_code": "1B",
+            "hazard_statement_code": "H340"
+          },
+          {
+            "hazard_class_code": "STOT RE",
+            "hazard_category_code": "1",
+            "hazard_statement_code": "H372"
+          },
+          {
+            "hazard_class_code": "Asp. Tox.",
+            "hazard_category_code": "1",
+            "hazard_statement_code": "H304"
+          },
+          {
+            "hazard_class_code": "Eye Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H319"
+          },
+          {
+            "hazard_class_code": "Skin Irrit.",
+            "hazard_category_code": "2",
+            "hazard_statement_code": "H315"
+          }
+        ],
+        "pictogram_codes": [],
+        "signal_word_code": "",
+        "supplemental_hazard_statements": [],
+        "specific_concentration_limits": [],
+        "m_factors": [],
+        "acute_toxicity_estimates": [],
+        "notes": [
+          "E"
+        ],
+        "form_or_physical_state_scope": "",
+        "minimum_classification_flag": false,
+        "atp_or_amending_act": "Commission Regulation (EU) 2018/669",
+        "publication_date": "2018-04-16",
+        "application_date": null,
+        "voluntary_early_application_allowed": false,
+        "legal_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+        "informational_reference": "",
+        "authority_level": "LEGALLY BINDING",
+        "source_version": "clp-annex-vi-case-v2-atp22",
+        "retrieval_date": "2026-09-24",
+        "checksum": "case-curated",
+        "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01",
+        "is_group_entry": false,
+        "group_keys": [],
+        "superseded_date": null
+      },
+      "covered_hazards": [
+        {
+          "hazard_class_code": "Flam. Liq.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H225"
+        },
+        {
+          "hazard_class_code": "Carc.",
+          "hazard_category_code": "1A",
+          "hazard_statement_code": "H350"
+        },
+        {
+          "hazard_class_code": "Muta.",
+          "hazard_category_code": "1B",
+          "hazard_statement_code": "H340"
+        },
+        {
+          "hazard_class_code": "STOT RE",
+          "hazard_category_code": "1",
+          "hazard_statement_code": "H372"
+        },
+        {
+          "hazard_class_code": "Asp. Tox.",
+          "hazard_category_code": "1",
+          "hazard_statement_code": "H304"
+        },
+        {
+          "hazard_class_code": "Eye Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H319"
+        },
+        {
+          "hazard_class_code": "Skin Irrit.",
+          "hazard_category_code": "2",
+          "hazard_statement_code": "H315"
+        }
+      ],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [
+        "E"
+      ],
+      "note_present": true,
+      "manual_review_required": true,
+      "application_status": "VERSION UNKNOWN",
+      "interpretation_note": "Other hazard classes may require classification separately. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review."
+    },
+    {
+      "status": "NO MATCH IN CHECKED DATASET",
+      "match_type": "NO_MATCH_IN_CHECKED_DATASET",
+      "input_identity": "water",
+      "entry": null,
+      "covered_hazards": [],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": [],
+      "note_present": false,
+      "manual_review_required": true,
+      "application_status": null,
+      "interpretation_note": "No entry was found in this checked snapshot. This does not mean non-hazardous, safe, or unclassified."
+    }
+  ],
+  "mixture_calculation": {
+    "hazard_class": "Acute Toxicity \u2014 Oral",
+    "legal_basis": "Regulation (EC) No 1272/2008, Annex I, sections 3.1.3.2, 3.1.3.3, 3.1.3.6.1 and 3.1.3.6.2.3; Tables 1.1, 3.1.1 and 3.1.2",
+    "rule_version": "clp-annex-i-2026-07-01-oral-pilot-v1",
+    "applicability_date": "2026-07-01",
+    "required_inputs": [
+      "component concentration or concentration bounds",
+      "route-specific oral ATE or evidence that the component is not acutely toxic orally",
+      "source provenance for every numerical input"
+    ],
+    "calculation_method": "CLP acute-toxicity additivity formula: 100/ATE_mix = sum(C_i/ATE_i)",
+    "decision_steps": [
+      "lower-bound: unknown component total 98% exceeds 10%; used corrected numerator 100 - unknown = 2.",
+      "lower-bound: ATE_mix = 2/0.004 = 500 mg/kg bw; Acute Tox. 4 (oral)."
+    ],
+    "result": "MANUAL REVIEW REQUIRED",
+    "resulting_category": "Acute Tox. 4 (oral)",
+    "evidence_route": "COMPONENT-BASED CLASSIFICATION",
+    "assumptions": [
+      "Concentrations are evaluated on the supplied percentage basis; no basis conversion is inferred.",
+      "Concentration ranges are evaluated at their bounds; no midpoint is used.",
+      "No purity adjustment is made unless already reflected in the supplied concentration.",
+      "Only acute toxicity by the oral route is evaluated."
+    ],
+    "warnings": [
+      "At least one component at or above 1% lacks usable oral acute-toxicity information; the calculated ATE is provisional and a definitive estimate cannot be made."
+    ],
+    "manual_review_required": true,
+    "source_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+    "calculation_trace": [
+      {
+        "component_name": "N-methyl-2-pyrrolidone",
+        "concentration": "10 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "toluene",
+        "concentration": "20 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "acetone",
+        "concentration": "30 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "ethanol",
+        "concentration": "20 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "formaldehyde \u2026%",
+        "concentration": "2 % w/w",
+        "oral_ate": 500,
+        "ate_unit": "mg/kg bw",
+        "ate_source": "CLP Annex VI ATE",
+        "contribution": 0.004,
+        "included": true,
+        "decision": "Included as C_i/ATE_i = 2/500 = 0.004.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": {
+            "source": "EUR-Lex ATP 22",
+            "authority_level": "LEGALLY_BINDING",
+            "dataset_snapshot": "case:eurlex-clp-annex-vi:2026-05-01",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study",
+            "harmonised": true
+          }
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "benzene",
+        "concentration": "0.05 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      },
+      {
+        "component_name": "water",
+        "concentration": "17.95 % w/w",
+        "oral_ate": null,
+        "ate_unit": "",
+        "ate_source": "",
+        "contribution": null,
+        "included": false,
+        "decision": "No usable oral ATE; concentration counted as unknown acute-toxicity information.",
+        "provenance": {
+          "concentration": {
+            "source": "Synthetic formulation",
+            "authority_level": "USER_SUPPLIED",
+            "dataset_snapshot": "case:formulation:v1",
+            "retrieval_date": "2026-09-24",
+            "reference": "case study"
+          },
+          "oral_ate": null
+        },
+        "scenario": "lower-bound"
+      }
+    ],
+    "calculated_mixture_ate": 500.0,
+    "calculated_mixture_ate_range": null,
+    "classification_threshold_used": "300 < oral ATE <= 2000 mg/kg bw (Category 4)",
+    "unknown_component_percentage": 98.0
+  },
+  "sds_sections": {
+    "1": "SYNTHETIC INDUSTRIAL COATING VALIDATION SPECIMEN",
+    "2": "Flam. Liq. 2 H225; Eye Irrit. 2 H319; STOT SE 3 H336.",
+    "3": "Acetone 30%; toluene 20%; ethanol 20%; formaldehyde 2%; benzene 0.05%; water.",
+    "8": "Use local exhaust ventilation and suitable gloves.",
+    "9": "Liquid coating base.",
+    "11": "Oral acute toxicity: no classification required.",
+    "12": "Avoid uncontrolled release.",
+    "15": "No SVHC substances identified. REACH Annex XVII: not applicable."
+  },
+  "sds_review": [
+    {
+      "section": "3",
+      "severity": "MANUAL REVIEW REQUIRED",
+      "finding": "Checked composition identity was not found in the supplied Section 3 text: 872-50-4.",
+      "source_reference": "https://echa.europa.eu/information-on-chemicals",
+      "interpretation": "Potential consistency issue only. This check does not determine that the SDS is legally invalid."
+    },
+    {
+      "section": "15",
+      "severity": "MANUAL REVIEW REQUIRED",
+      "finding": "SDS text contains 'No SVHC substances identified', which conflicts with checked Candidate List match: NMP Candidate List inclusion.",
+      "source_reference": "https://echa.europa.eu/candidate-list-table",
+      "interpretation": "Potential consistency issue only. This check does not determine that the SDS is legally invalid."
+    },
+    {
+      "section": "15",
+      "severity": "MANUAL REVIEW REQUIRED",
+      "finding": "SDS text contains 'REACH Annex XVII: not applicable', which conflicts with checked Annex XVII potential matches: entries 71, 5 and 48.",
+      "source_reference": "https://eur-lex.europa.eu/eli/reg/2006/1907",
+      "interpretation": "Potential consistency issue only. This check does not determine that the SDS is legally invalid."
+    },
+    {
+      "section": "11",
+      "severity": "MANUAL REVIEW REQUIRED",
+      "finding": "SDS text contains 'no classification required', which conflicts with checked implemented oral rule: MANUAL REVIEW REQUIRED.",
+      "source_reference": "https://eur-lex.europa.eu/eli/reg/2008/1272",
+      "interpretation": "Potential consistency issue only. This check does not determine that the SDS is legally invalid."
+    }
+  ],
+  "manual_review_queue": [
+    {
+      "module": "Candidate List",
+      "component": "N-methyl-2-pyrrolidone",
+      "status": "CONFIRMED MATCH",
+      "reason": "Confirm role, use, concentration and any applicable obligations.",
+      "dataset_id": "case:echa-candidate-list:2026-02-04"
+    },
+    {
+      "module": "Annex XVII",
+      "component": "N-methyl-2-pyrrolidone",
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "reason": "Exact normalized CAS or EC identifier match. Supplied concentration is at or above the recorded threshold; this is screening context, not a compliance conclusion.",
+      "dataset_id": "case:echa-annex-xvii:2026-09-24"
+    },
+    {
+      "module": "Annex XVII",
+      "component": "toluene",
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "reason": "Exact normalized CAS or EC identifier match. Supplied concentration is at or above the recorded threshold; this is screening context, not a compliance conclusion.",
+      "dataset_id": "case:echa-annex-xvii:2026-09-24"
+    },
+    {
+      "module": "Annex XVII",
+      "component": "acetone",
+      "status": "NO MATCH IN CHECKED DATASET",
+      "reason": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "dataset_id": ""
+    },
+    {
+      "module": "Annex XVII",
+      "component": "ethanol",
+      "status": "NO MATCH IN CHECKED DATASET",
+      "reason": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "dataset_id": ""
+    },
+    {
+      "module": "Annex XVII",
+      "component": "formaldehyde \u2026%",
+      "status": "NO MATCH IN CHECKED DATASET",
+      "reason": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "dataset_id": ""
+    },
+    {
+      "module": "Annex XVII",
+      "component": "benzene",
+      "status": "POTENTIAL RESTRICTION MATCH",
+      "reason": "Exact normalized CAS or EC identifier match. Supplied concentration is below the recorded threshold; this is screening context, not a compliance conclusion.",
+      "dataset_id": "case:echa-annex-xvii:2026-09-24"
+    },
+    {
+      "module": "Annex XVII",
+      "component": "water",
+      "status": "NO MATCH IN CHECKED DATASET",
+      "reason": "No matching entry was found in this checked snapshot. This does not mean unrestricted or compliant.",
+      "dataset_id": ""
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "N-methyl-2-pyrrolidone",
+      "status": "PARTIAL HARMONISED CLASSIFICATION",
+      "reason": "Other hazard classes may require classification separately. A minimum-classification marker is present; consult CLP Annex VI notes and the applicable legal text. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "toluene",
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "reason": "Other hazard classes may require classification separately. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "acetone",
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "reason": "Other hazard classes may require classification separately.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "ethanol",
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "reason": "Other hazard classes may require classification separately.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "formaldehyde \u2026%",
+      "status": "PARTIAL HARMONISED CLASSIFICATION",
+      "reason": "Other hazard classes may require classification separately. A minimum-classification marker is present; consult CLP Annex VI notes and the applicable legal text. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "benzene",
+      "status": "HARMONISED CLASSIFICATION MATCH",
+      "reason": "Other hazard classes may require classification separately. NOTE_PRESENT: Annex VI notes may materially affect interpretation and require manual review.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "CLP Annex VI",
+      "component": "water",
+      "status": "NO MATCH IN CHECKED DATASET",
+      "reason": "No entry was found in this checked snapshot. This does not mean non-hazardous, safe, or unclassified.",
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    {
+      "module": "Acute toxicity oral",
+      "component": "RV-01",
+      "status": "MANUAL REVIEW REQUIRED",
+      "reason": "At least one component at or above 1% lacks usable oral acute-toxicity information; the calculated ATE is provisional and a definitive estimate cannot be made.",
+      "dataset_id": "case:clp-oral-rule:2026-07-01"
+    },
+    {
+      "module": "SDS consistency",
+      "component": "RV-01",
+      "status": "MANUAL REVIEW REQUIRED",
+      "reason": "Checked composition identity was not found in the supplied Section 3 text: 872-50-4.",
+      "dataset_id": "case:synthetic-sds:v1"
+    },
+    {
+      "module": "SDS consistency",
+      "component": "RV-01",
+      "status": "MANUAL REVIEW REQUIRED",
+      "reason": "SDS text contains 'No SVHC substances identified', which conflicts with checked Candidate List match: NMP Candidate List inclusion.",
+      "dataset_id": "case:synthetic-sds:v1"
+    },
+    {
+      "module": "SDS consistency",
+      "component": "RV-01",
+      "status": "MANUAL REVIEW REQUIRED",
+      "reason": "SDS text contains 'REACH Annex XVII: not applicable', which conflicts with checked Annex XVII potential matches: entries 71, 5 and 48.",
+      "dataset_id": "case:synthetic-sds:v1"
+    },
+    {
+      "module": "SDS consistency",
+      "component": "RV-01",
+      "status": "MANUAL REVIEW REQUIRED",
+      "reason": "SDS text contains 'no classification required', which conflicts with checked implemented oral rule: MANUAL REVIEW REQUIRED.",
+      "dataset_id": "case:synthetic-sds:v1"
+    }
+  ],
+  "historical_evidence": {
+    "formaldehyde_2015": {
+      "hazard_statement": "H301",
+      "dataset_id": "case:eurlex-clp-annex-vi:2015-03-25"
+    },
+    "formaldehyde_2026": {
+      "hazard_statement": "H302",
+      "oral_ate_mg_per_kg_bw": 500,
+      "dataset_id": "case:eurlex-clp-annex-vi:2026-05-01"
+    },
+    "reproduction_instruction": "Pin dataset IDs and rule version shown above to reproduce this output."
+  }
+}

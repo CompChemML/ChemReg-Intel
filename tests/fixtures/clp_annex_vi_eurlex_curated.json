@@ -1,0 +1,160 @@
+{
+  "records": [
+    {
+      "index_number": "605-001-00-5",
+      "chemical_name": "formaldehyde …%",
+      "ec_number": "200-001-8",
+      "cas_number": "50-00-0",
+      "hazards": [
+        {"hazard_class_code": "Carc.", "hazard_category_code": "1B", "hazard_statement_code": "H350"},
+        {"hazard_class_code": "Muta.", "hazard_category_code": "2", "hazard_statement_code": "H341"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "3*", "hazard_statement_code": "H301"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "3*", "hazard_statement_code": "H311"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "3*", "hazard_statement_code": "H331"},
+        {"hazard_class_code": "Skin Corr.", "hazard_category_code": "1B", "hazard_statement_code": "H314"},
+        {"hazard_class_code": "Skin Sens.", "hazard_category_code": "1", "hazard_statement_code": "H317"}
+      ],
+      "pictogram_codes": ["GHS08", "GHS06", "GHS05"],
+      "signal_word_code": "Dgr",
+      "supplemental_hazard_statements": [],
+      "specific_concentration_limits": [
+        {"hazard_class": "Skin Corr.", "category": "1B", "operator": ">=", "threshold": 25.0, "unit": "%", "classification_trigger": "H314", "raw_text": "Skin Corr. 1B; H314: C >= 25%"},
+        {"hazard_class": "Skin Irrit.", "category": "2", "operator": ">=", "threshold": 5.0, "unit": "%", "classification_trigger": "H315", "upper_operator": "<", "upper_threshold": 25.0, "raw_text": "Skin Irrit. 2; H315: 5% <= C < 25%"},
+        {"hazard_class": "Eye Irrit.", "category": "2", "operator": ">=", "threshold": 5.0, "unit": "%", "classification_trigger": "H319", "upper_operator": "<", "upper_threshold": 25.0, "raw_text": "Eye Irrit. 2; H319: 5% <= C < 25%"},
+        {"hazard_class": "STOT SE", "category": "3", "operator": ">=", "threshold": 5.0, "unit": "%", "classification_trigger": "H335", "raw_text": "STOT SE 3; H335: C >= 5%"},
+        {"hazard_class": "Skin Sens.", "category": "1", "operator": ">=", "threshold": 0.2, "unit": "%", "classification_trigger": "H317", "raw_text": "Skin Sens. 1; H317: C >= 0.2%"}
+      ],
+      "m_factors": [],
+      "acute_toxicity_estimates": [],
+      "notes": ["B", "D"],
+      "form_or_physical_state_scope": "formaldehyde solutions expressed as concentration percent",
+      "minimum_classification_flag": true,
+      "atp_or_amending_act": "Commission Regulation (EU) No 605/2014",
+      "publication_date": "2014-06-06",
+      "application_date": null,
+      "voluntary_early_application_allowed": false,
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2014/605/2015-03-25/eng",
+      "informational_reference": "",
+      "authority_level": "LEGALLY BINDING",
+      "is_group_entry": false,
+      "group_keys": []
+    },
+    {
+      "index_number": "614-001-00-4",
+      "chemical_name": "nicotine (ISO); 3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+      "ec_number": "200-193-3",
+      "cas_number": "54-11-5",
+      "hazards": [
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "2", "hazard_statement_code": "H330"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "2", "hazard_statement_code": "H310"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "2", "hazard_statement_code": "H300"},
+        {"hazard_class_code": "Aquatic Chronic", "hazard_category_code": "2", "hazard_statement_code": "H411"}
+      ],
+      "pictogram_codes": ["GHS06", "GHS09"],
+      "signal_word_code": "Dgr",
+      "supplemental_hazard_statements": [],
+      "specific_concentration_limits": [],
+      "m_factors": [],
+      "acute_toxicity_estimates": [
+        {"route": "inhalation", "value": 0.19, "unit": "mg/L", "physical_form": "dusts or mists", "raw_text": "inhalation ATE 0.19 mg/L (dusts or mists)"},
+        {"route": "dermal", "value": 70.0, "unit": "mg/kg bw", "physical_form": "", "raw_text": "dermal ATE 70 mg/kg bw"},
+        {"route": "oral", "value": 5.0, "unit": "mg/kg bw", "physical_form": "", "raw_text": "oral ATE 5 mg/kg bw"}
+      ],
+      "notes": [],
+      "form_or_physical_state_scope": "",
+      "minimum_classification_flag": false,
+      "atp_or_amending_act": "Commission Regulation (EU) 2018/1480",
+      "publication_date": "2018-10-05",
+      "application_date": null,
+      "voluntary_early_application_allowed": false,
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2018/1480/oj",
+      "informational_reference": "",
+      "authority_level": "LEGALLY BINDING",
+      "is_group_entry": false,
+      "group_keys": []
+    },
+    {
+      "index_number": "605-008-00-3",
+      "chemical_name": "acrolein; prop-2-enal; acrylaldehyde",
+      "ec_number": "203-453-4",
+      "cas_number": "107-02-8",
+      "hazards": [
+        {"hazard_class_code": "Flam. Liq.", "hazard_category_code": "2", "hazard_statement_code": "H225"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "1", "hazard_statement_code": "H330"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "2", "hazard_statement_code": "H300"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "3", "hazard_statement_code": "H311"},
+        {"hazard_class_code": "Skin Corr.", "hazard_category_code": "1B", "hazard_statement_code": "H314"},
+        {"hazard_class_code": "Aquatic Acute", "hazard_category_code": "1", "hazard_statement_code": "H400"},
+        {"hazard_class_code": "Aquatic Chronic", "hazard_category_code": "1", "hazard_statement_code": "H410"}
+      ],
+      "pictogram_codes": ["GHS02", "GHS06", "GHS05", "GHS09"],
+      "signal_word_code": "Dgr",
+      "supplemental_hazard_statements": ["EUH071"],
+      "specific_concentration_limits": [
+        {"hazard_class": "Skin Corr.", "category": "1B", "operator": ">=", "threshold": 0.1, "unit": "%", "classification_trigger": "H314", "raw_text": "Skin Corr. 1B; H314: C >= 0.1%"}
+      ],
+      "m_factors": [
+        {"hazard_context": "Aquatic Acute 1", "value": 100.0, "raw_text": "M=100"},
+        {"hazard_context": "Aquatic Chronic 1", "value": 1.0, "raw_text": "M=1"}
+      ],
+      "acute_toxicity_estimates": [],
+      "notes": ["D"],
+      "form_or_physical_state_scope": "",
+      "minimum_classification_flag": false,
+      "atp_or_amending_act": "Commission Regulation (EU) No 605/2014",
+      "publication_date": "2014-06-06",
+      "application_date": null,
+      "voluntary_early_application_allowed": false,
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg/2014/605/2015-03-25/eng",
+      "informational_reference": "",
+      "authority_level": "LEGALLY BINDING",
+      "is_group_entry": false,
+      "group_keys": []
+    },
+    {
+      "index_number": "008-004-00-4",
+      "chemical_name": "ozone",
+      "ec_number": "233-069-2",
+      "cas_number": "10028-15-6",
+      "hazards": [
+        {"hazard_class_code": "Ox. Gas", "hazard_category_code": "1", "hazard_statement_code": "H270"},
+        {"hazard_class_code": "Carc.", "hazard_category_code": "2", "hazard_statement_code": "H351"},
+        {"hazard_class_code": "Muta.", "hazard_category_code": "2", "hazard_statement_code": "H341"},
+        {"hazard_class_code": "Acute Tox.", "hazard_category_code": "1", "hazard_statement_code": "H330"},
+        {"hazard_class_code": "STOT SE", "hazard_category_code": "1", "hazard_statement_code": "H370"},
+        {"hazard_class_code": "STOT RE", "hazard_category_code": "1", "hazard_statement_code": "H372"},
+        {"hazard_class_code": "Aquatic Acute", "hazard_category_code": "1", "hazard_statement_code": "H400"},
+        {"hazard_class_code": "Aquatic Chronic", "hazard_category_code": "1", "hazard_statement_code": "H410"}
+      ],
+      "pictogram_codes": ["GHS03", "GHS08", "GHS06", "GHS09"],
+      "signal_word_code": "Dgr",
+      "supplemental_hazard_statements": [],
+      "specific_concentration_limits": [
+        {"hazard_class": "STOT SE", "category": "1", "operator": ">=", "threshold": 0.002, "unit": "%", "classification_trigger": "H370", "raw_text": "STOT SE 1; H370: C >= 0.002%"},
+        {"hazard_class": "STOT SE", "category": "2", "operator": ">=", "threshold": 0.0005, "unit": "%", "classification_trigger": "H371", "upper_operator": "<", "upper_threshold": 0.002, "raw_text": "STOT SE 2; H371: 0.0005% <= C < 0.002%"},
+        {"hazard_class": "STOT RE", "category": "1", "operator": ">=", "threshold": 0.05, "unit": "%", "classification_trigger": "H372", "raw_text": "STOT RE 1; H372: C >= 0.05%"},
+        {"hazard_class": "STOT RE", "category": "2", "operator": ">=", "threshold": 0.01, "unit": "%", "classification_trigger": "H373", "upper_operator": "<", "upper_threshold": 0.05, "raw_text": "STOT RE 2; H373: 0.01% <= C < 0.05%"}
+      ],
+      "m_factors": [
+        {"hazard_context": "Aquatic Acute 1", "value": 100.0, "raw_text": "M=100"},
+        {"hazard_context": "Aquatic Chronic 1", "value": 1.0, "raw_text": "M=1"}
+      ],
+      "acute_toxicity_estimates": [
+        {"route": "inhalation", "value": 10.0, "unit": "ppmV", "physical_form": "gas", "raw_text": "inhalation ATE 10 ppmV"}
+      ],
+      "notes": [],
+      "form_or_physical_state_scope": "gas",
+      "minimum_classification_flag": false,
+      "atp_or_amending_act": "Commission Delegated Regulation (EU) 2025/1222 (ATP 23)",
+      "publication_date": "2025-06-20",
+      "application_date": "2027-02-01",
+      "voluntary_early_application_allowed": true,
+      "legal_reference": "https://eur-lex.europa.eu/eli/reg_del/2025/1222/oj",
+      "informational_reference": "",
+      "authority_level": "LEGALLY BINDING",
+      "is_group_entry": false,
+      "group_keys": []
+    }
+  ]
+}
+
